@@ -1,0 +1,187 @@
+
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0,0,33);
+    color: white;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(2, 10, 71); 
+    /* 0 8 64 1*/
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(133, 133, 183);
+    font-size: 1.03rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px 0px 0px;
+    align-items: center;
+}
+.firstsection > div{
+    width: 35%;
+}
+.leftsection{
+    font-size: 2.5rem;
+    margin: 25px 0px;
+}
+ .btn{
+    padding: 12px;
+    background: #1e2167;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+}
+.btny{
+    margin: 0px 1px 0px 0px  ;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.rightsection img{
+    width: 80%;
+}
+.rightsection {
+    display: flex;
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+#myimg{
+    width: 50%;
+    margin: 0px 79px 15px 0px;
+    border-radius: 500px;
+    align-self: center;
+}
+.myphoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.secondsection{
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background: rgb(170, 107, 228);
+    height: 1.2px;
+    margin: 20px 84px 20px;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.text-gray{
+    color: gray
+}
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background: white;
+    margin: 0px 150px;
+}
+.img-top{
+    width: 32px;
+    position: relative;
+    top: -39px;
+    left: -15px;
+}
+.vertical-text{
+    position: relative;
+    top: 52px;
+    left: -9px;
+    display: flex;
+    width: 200px;
+}
+#contact:hover{
+    cursor: pointer;
+}
+.vertical-desc{
+    position: relative;
+top: 54px;
+display: flex;
+color: gray;
+width: 200px;
+font-size: 11px;
+left: -10px;
+}
+footer{
+    background: #1f1f1f;;
+}
+.footer{
+    display: flex;
+    padding: 34px 122px;
+    justify-content: space-evenly;
+}
+.footer >div{
+    width: 223px;
+}
+.footer ul{
+    list-style: none;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+}
+.btn2{
+    margin: 0px 0px 0px 10px;
+}
+.third{
+    display: flex;
+    width: 10px;
+}
+.rbtns{
+    margin: 0px 0px 0px 85px;
+}
+.btny{
+    margin: 0px 1px 41px 0px;
+    width: 150px;
+}
+.btn11{
+    padding: 0px;
+    margin: 0px 0px 40px 0px;
+}
+.btn11 img{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
