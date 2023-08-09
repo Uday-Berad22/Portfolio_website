@@ -1,6 +1,4 @@
 
-console.log("UDAY");
-
   let xyz=document.getElementById("contact");
   xyz.addEventListener("click",()=>{
       Swal.fire({
